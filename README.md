@@ -1,7 +1,7 @@
 # 🚀 StudyNotion – Online Learning Platform
 
 🔗 **Live Demo:**  
-👉 https://study-notion.vercel.app
+👉 [https://study-notion.vercel.app](https://study-notion-pz46hy3qf-ayushmishraaa8470-engs-projects.vercel.app)
 
 ---
 
