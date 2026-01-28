@@ -1,18 +1,77 @@
-# React + Vite
+# 🚀 StudyNotion – Online Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:**  
+👉 https://study-notion.vercel.app
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About the Project
+**StudyNotion** is a full-stack online learning platform where students can explore courses and instructors can create and manage courses.  
+The platform is designed with a modern UI, smooth user experience, and scalable backend architecture.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Features
 
-Note: This will impact Vite dev & build performances.
+### 👨‍🎓 Student Features
+- Browse courses by category
+- View course details
+- Enroll in courses
+- Track learning progress
+- Secure authentication (Login / Signup)
 
-## Expanding the ESLint configuration
+### 👨‍🏫 Instructor Features
+- Create and manage courses
+- Upload course content
+- Dashboard for course management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Authentication
+- Signup & Login
+- Role-based access (Student / Instructor)
+- Protected routes
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Redux Toolkit
+- React Router DOM
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Other Tools
+- Cloudinary (Image Uploads)
+- JWT Authentication
+- Vercel (Frontend Deployment)
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```bash
+study-notion/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── slices/
+│   ├── utils/
+│   └── App.jsx
+│
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── config/
+│
+├── package.json
+└── README.md
